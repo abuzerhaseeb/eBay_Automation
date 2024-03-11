@@ -27,7 +27,7 @@ This repository contains an automated testing framework for testing eBay's web a
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/abuzerhaseeb/eBay_Automation.git
     ```
 
 2. Open the project in your preferred IDE.
