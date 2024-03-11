@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- TestNG suite file configuration -->
+
+<suite name="Suite">
+    <!-- Root suite element with name attribute -->
+
+    <!-- Define TestNG listeners -->
+    <listeners>
+        <!-- Listener for generating extent reports -->
+        <listener class-name="utilities.ExtentReportManager" />
+    </listeners>
+
+    <!-- Define parameters at the suite level -->
+    <parameter name="os" value="Windows" />
+    <parameter name="browser" value="chrome" />
+
+    <!-- Define test scenarios -->
+    <test name="Test">
+        <!-- Test configuration for "Test" -->
+        <groups>
+            <!-- Specify groups to be included in the test run -->
+            <run>
+                <!-- Include "regression" group -->
+                <include name="regression" />
+            </run>
+        </groups>
+        <classes>
+            <!-- Test classes to be executed under "Test" -->
+            <!-- Test class for product search by multiple filters -->
+            <class name="testCases.TC_001_ProductSearchByMultipleFilters" />
+            <!-- Test class for product search by name -->
+            <class name="testCases.TC_002_ProductSearchByName" />
+        </classes>
+    </test>
+</suite>

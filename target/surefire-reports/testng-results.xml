@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-11T15:49:42 IST" name="Suite" finished-at="2024-03-11T15:50:12 IST" duration-ms="30268">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@6b00f608]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@4fce136b]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@6b00f608]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@4fce136b]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-11T15:49:42 IST" name="Test" finished-at="2024-03-11T15:50:12 IST" duration-ms="30268">
+      <class name="testCases.TC_001_ProductSearchByMultipleFilters">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@6b00f608]" started-at="2024-03-11T15:49:42 IST" name="setup" finished-at="2024-03-11T15:49:49 IST" duration-ms="6685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@6b00f608]" started-at="2024-03-11T15:49:49 IST" name="setUpPages" finished-at="2024-03-11T15:49:49 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@6b00f608]" started-at="2024-03-11T15:49:49 IST" name="productSearchByMultipleFilters" finished-at="2024-03-11T15:50:02 IST" duration-ms="13517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByMultipleFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@6b00f608]" started-at="2024-03-11T15:50:02 IST" name="tearDown" finished-at="2024-03-11T15:50:03 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_ProductSearchByMultipleFilters -->
+      <class name="testCases.TC_002_ProductSearchByName">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_ProductSearchByName@4fce136b]" started-at="2024-03-11T15:50:03 IST" name="setup" finished-at="2024-03-11T15:50:07 IST" duration-ms="4694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:testCases.TC_002_ProductSearchByName@4fce136b]" started-at="2024-03-11T15:50:07 IST" name="initializePages" finished-at="2024-03-11T15:50:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@4fce136b]" started-at="2024-03-11T15:50:07 IST" name="productSearchByName" finished-at="2024-03-11T15:50:12 IST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_ProductSearchByName@4fce136b]" started-at="2024-03-11T15:50:12 IST" name="tearDown" finished-at="2024-03-11T15:50:12 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_ProductSearchByName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-03-11T15:51:12 IST" name="Suite (1)" finished-at="2024-03-11T15:51:41 IST" duration-ms="28339">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@4566d049]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@61ce23ac]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@4566d049]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@61ce23ac]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-11T15:51:12 IST" name="Test" finished-at="2024-03-11T15:51:41 IST" duration-ms="28339">
+      <class name="testCases.TC_001_ProductSearchByMultipleFilters">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@4566d049]" started-at="2024-03-11T15:51:12 IST" name="setup" finished-at="2024-03-11T15:51:17 IST" duration-ms="4631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@4566d049]" started-at="2024-03-11T15:51:17 IST" name="setUpPages" finished-at="2024-03-11T15:51:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@4566d049]" started-at="2024-03-11T15:51:17 IST" name="productSearchByMultipleFilters" finished-at="2024-03-11T15:51:30 IST" duration-ms="12730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByMultipleFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@4566d049]" started-at="2024-03-11T15:51:30 IST" name="tearDown" finished-at="2024-03-11T15:51:30 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_ProductSearchByMultipleFilters -->
+      <class name="testCases.TC_002_ProductSearchByName">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_ProductSearchByName@61ce23ac]" started-at="2024-03-11T15:51:30 IST" name="setup" finished-at="2024-03-11T15:51:35 IST" duration-ms="4619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:testCases.TC_002_ProductSearchByName@61ce23ac]" started-at="2024-03-11T15:51:35 IST" name="initializePages" finished-at="2024-03-11T15:51:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@61ce23ac]" started-at="2024-03-11T15:51:35 IST" name="productSearchByName" finished-at="2024-03-11T15:51:41 IST" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_ProductSearchByName@61ce23ac]" started-at="2024-03-11T15:51:41 IST" name="tearDown" finished-at="2024-03-11T15:51:41 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_ProductSearchByName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2024-03-11T15:50:14 IST" name="Suite (0)" finished-at="2024-03-11T15:51:12 IST" duration-ms="57502">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@5829e4f4]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@4218500f]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@1b2c4efb]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@c35172e]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@5829e4f4]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@4218500f]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+        <method signature="TC_001_ProductSearchByMultipleFilters.productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@1b2c4efb]" name="productSearchByMultipleFilters" class="testCases.TC_001_ProductSearchByMultipleFilters"/>
+        <method signature="TC_002_ProductSearchByName.productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@c35172e]" name="productSearchByName" class="testCases.TC_002_ProductSearchByName"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-11T15:50:14 IST" name="chrometest" finished-at="2024-03-11T15:50:42 IST" duration-ms="27271">
+      <class name="testCases.TC_001_ProductSearchByMultipleFilters">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@5829e4f4]" started-at="2024-03-11T15:50:14 IST" name="setup" finished-at="2024-03-11T15:50:19 IST" duration-ms="4334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@5829e4f4]" started-at="2024-03-11T15:50:19 IST" name="setUpPages" finished-at="2024-03-11T15:50:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@5829e4f4]" started-at="2024-03-11T15:50:19 IST" name="productSearchByMultipleFilters" finished-at="2024-03-11T15:50:32 IST" duration-ms="13301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByMultipleFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@5829e4f4]" started-at="2024-03-11T15:50:32 IST" name="tearDown" finished-at="2024-03-11T15:50:32 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_ProductSearchByMultipleFilters -->
+      <class name="testCases.TC_002_ProductSearchByName">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_ProductSearchByName@4218500f]" started-at="2024-03-11T15:50:32 IST" name="setup" finished-at="2024-03-11T15:50:36 IST" duration-ms="4323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:testCases.TC_002_ProductSearchByName@4218500f]" started-at="2024-03-11T15:50:36 IST" name="initializePages" finished-at="2024-03-11T15:50:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@4218500f]" started-at="2024-03-11T15:50:36 IST" name="productSearchByName" finished-at="2024-03-11T15:50:41 IST" duration-ms="5025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_ProductSearchByName@4218500f]" started-at="2024-03-11T15:50:41 IST" name="tearDown" finished-at="2024-03-11T15:50:42 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_ProductSearchByName -->
+    </test> <!-- chrometest -->
+    <test started-at="2024-03-11T15:50:42 IST" name="edgetest" finished-at="2024-03-11T15:51:12 IST" duration-ms="29470">
+      <class name="testCases.TC_001_ProductSearchByMultipleFilters">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@1b2c4efb]" started-at="2024-03-11T15:50:42 IST" name="setup" finished-at="2024-03-11T15:50:48 IST" duration-ms="6067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@1b2c4efb]" started-at="2024-03-11T15:50:48 IST" name="setUpPages" finished-at="2024-03-11T15:50:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="productSearchByMultipleFilters()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@1b2c4efb]" started-at="2024-03-11T15:50:48 IST" name="productSearchByMultipleFilters" finished-at="2024-03-11T15:51:02 IST" duration-ms="13215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByMultipleFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_ProductSearchByMultipleFilters@1b2c4efb]" started-at="2024-03-11T15:51:02 IST" name="tearDown" finished-at="2024-03-11T15:51:02 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_ProductSearchByMultipleFilters -->
+      <class name="testCases.TC_002_ProductSearchByName">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_ProductSearchByName@c35172e]" started-at="2024-03-11T15:51:02 IST" name="setup" finished-at="2024-03-11T15:51:07 IST" duration-ms="5421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:testCases.TC_002_ProductSearchByName@c35172e]" started-at="2024-03-11T15:51:07 IST" name="initializePages" finished-at="2024-03-11T15:51:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="productSearchByName()[pri:0, instance:testCases.TC_002_ProductSearchByName@c35172e]" started-at="2024-03-11T15:51:07 IST" name="productSearchByName" finished-at="2024-03-11T15:51:12 IST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_ProductSearchByName@c35172e]" started-at="2024-03-11T15:51:12 IST" name="tearDown" finished-at="2024-03-11T15:51:12 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_ProductSearchByName -->
+    </test> <!-- edgetest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
