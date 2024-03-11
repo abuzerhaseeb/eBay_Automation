@@ -67,3 +67,7 @@ Test execution reports are generated using ExtentReports. After running the test
 ## Contributors
 
 - [Abuzer Haseeb](https://github.com/abuzerhaseeb)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
